@@ -1,6 +1,15 @@
 /**
  * Site header
  */
+
+.site-title {
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    margin-bottom: -1px;
+    float: left;
+
+
 .site-header {
     min-height: 80px;
     height: 80px;
@@ -10,12 +19,6 @@
     z-index: 100;
 }
 
-.site-title {
-    font-size: 26px;
-    line-height: 36px;
-    letter-spacing: -1px;
-    margin-bottom: -1px;
-    float: left;
 
     &,
     &:visited {
@@ -114,12 +117,6 @@
     @extend %clearfix;
 }
 
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
@@ -129,6 +126,13 @@
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
 }
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
@@ -173,10 +177,6 @@
     overflow-y:auto;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -190,6 +190,13 @@
     font-size: $small-font-size;
     color: $grey-color;
 }
+
+
+.page-heading {
+    font-size: 20px;
+}
+
+
 
 .post-link {
     display: block;
